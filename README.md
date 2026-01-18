@@ -6,6 +6,7 @@ ESP32 Flappy Bird - Gömülü Sistem Projesi
 Bu proje, ESP32 mikrodenetleyici ve ILI9341 TFT LCD ekran kullanılarak geliştirilmiş, donanım seviyesinde optimize edilmiş bir Flappy Bird klonudur. Proje, kısıtlı donanım kaynaklarıyla akıcı grafikler ve gerçek zamanlı fizik hesaplamaları yapmayı amaçlamaktadır.
 
 - Teknik Özellikler & Optimizasyonlar
+
 Partial Screen Refresh: Ekran titremesini (flickering) önlemek için tüm ekranı yeniden boyamak yerine sadece değişen piksellerin güncellendiği bir algoritma kullanıldı.
 
 High Speed SPI: Ekran ile haberleşme hızı 40MHz'e optimize edilerek yüksek FPS değerlerine ulaşıldı.
@@ -15,6 +16,7 @@ NVS (Non-Volatile Storage): Yüksek skor verisi, ESP32'nin Preferences kütüpha
 Physics Engine: Karakter hareketleri için yerçekimi ivmesi ve sıçrama kuvveti hesaplamaları içeren basit bir fizik motoru entegre edildi.
 
 - Donanım Bileşenleri
+  
 Mikrodenetleyici: ESP32-WROOM
 
 Ekran: 2.8" ILI9341 TFT LCD (320x240)
