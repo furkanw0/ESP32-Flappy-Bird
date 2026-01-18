@@ -27,16 +27,26 @@ Giriş: Push Button (Internal Pull-up)
 
 - Bağlantı Şeması (Wiring)
 
-TFT LCD Pin,   ESP32 Pin,Açıklama
+TFT LCD Pin,   ESP32 Pin
+
 VCC,           3.3V,Güç 
-GND,           GND,Toprak
+
+GND,           GND
+
 CS,            GPIO 15
+
 RESET (RST),   GPIO 4
+
 DC (RS),       GPIO 2
+
 SDI (MOSI),    GPIO 23
+
 SCK (CLK),     GPIO 18
+
 LED,           3.3V
+
 SDO (MISO),    GPIO 19
+
 
 
 Zıplama Butonu (A): GPIO 13 (Bir ucu GPIO 13, diğer ucu GND)
