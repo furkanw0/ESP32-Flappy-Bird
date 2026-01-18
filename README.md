@@ -56,3 +56,6 @@ Restart Butonu (B): GPIO 12 (Bir ucu GPIO 12, diğer ucu GND)
 Buzzer: GPIO 25 (Artı ucu GPIO 25, eksi ucu GND)
 
 
+![Proje Görseli](Esp32-GameConsole.jpg)
+
+
